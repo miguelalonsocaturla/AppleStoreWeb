@@ -1,0 +1,31 @@
+
+
+#page p {
+   
+    animation-duration: 4s;
+    animation-name: movimiento;
+    color: black;
+}
+#page h1 {
+   
+    animation-duration: 2s;
+    animation-name: movimiento;
+    color: black;
+}
+
+
+
+@media (min-width: 600px) {
+    #page p {
+        padding: 1vw 16vw;
+    }
+}
+
+@keyframes movimiento {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}

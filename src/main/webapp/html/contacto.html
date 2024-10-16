@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="./css/formulario.css" rel="stylesheet">
+	<title>Contacto</title>
+</head>
+
+<body>
+
+    <div  class="container-fluid">
+        <form class="formulario">
+            <h2>Envianos cualquier duda que pueda surgir</h2>
+            <input type="text" name="nombre" placeholder="Nombre y Apellidos" pattern="[A-Za-z]+" required>
+            <input type="email" name="correo" placeholder="Correo" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>
+            <select class="problema" name="tipo"><option selected disabled="disabled">Tipo de problema</option><option value="tec">Técnico</option><option value="pedido">Pedido</option><option value="otro">Otro</option></select>
+            <textarea name="mensaje" placeholder="Describa su problema o recomendación"></textarea>
+            <input class="boton" type="submit" value="Enviar">
+        </form>
+        <div class="atencion">
+            <p>ATENCIÓN AL CLIENTE</p>
+            <p>Horarios: L-V 9:00 a 21:00, S-D-Festivos 10:00 a 20:00</p>
+            <p>Teléfono: 619287623</p>
+        </div>
+    </div>
+    
+    <div class="atencion" >
+    	<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=apple%20park+(mapa)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+    	</iframe>
+    </div>
+
+</body>
+
+</html>

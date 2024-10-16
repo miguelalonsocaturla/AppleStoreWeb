@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+   
+   .logo_menu
+    {
+        width: 50px;
+        height: auto;
+    }
+
+    .palabra_menu
+    {
+        font-weight: bold;
+    }
+
+    .enlaces:visited {
+        color: rgb(128, 128, 192);
+    }
+    
+    .enlaces:focus {
+        border-bottom: 1px solid;
+        background: rgb(128, 128, 192);
+    }
+
+    body {
+        min-height: 100vh;
+    }
+
+    footer {
+        position: sticky;
+        top: 100%;
+    }
+    
+    /* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}

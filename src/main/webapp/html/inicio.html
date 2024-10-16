@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+	
+    
+
+</head>
+
+<body>
+<div class="container-fluid p-5 bg-primary text-white text-center" >
+  <h1>iMovil Phone</h1>
+  <h4>La mejor marca de moviles del mercado</h4> 
+</div>
+    <div class="container mt-5 " >
+	  <div class="row">
+	    <div class="col-md-6 text-center">
+	      <h3>Nuestra Empresa:</h3>
+	      <p>Somos la empresa numero 1 en el mundo de venta de telefonos moviles.</p>
+	      <p>Nuestros dispositivos cuentan con los mejores materiales del mercado y un desarrollo excelente y meticuloso por nuestros profesionales.</p>
+	      <div><img alt="fondo" src="./imagenes/fondoinicio.jpg" class="d-block w-100"></div>
+	      <button type="button" class="btn btn-primary" onclick="Cargar('./html/empresa.html','inicio')">Empresa</button>
+	    </div>
+	    <div class="col-md-6 text-center">
+	      <h3>Nuestra Actividad:</h3>
+	      <p>Actualmente trabajamos en el desarrollo y mejora de nuevos dispositivos para mantener nuestra tecnologia actualizada.</p>
+	      <p> Este es nuestro ultimo lanzamiento el Iphone 14 pro:</p>
+	      <div id="demo" class="carousel carousel-dark slide" data-bs-ride="carousel">
+			<!-- Indicators/dots -->
+			  <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+			    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" ></button>
+			    <button type="button" data-bs-target="#demo" data-bs-slide-to="2" ></button>
+			  </div>
+			
+			  <!-- The slideshow/carousel -->
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="./imagenes/iphone14pro/iphone-14-pro1.png" alt="1" class="d-block w-100">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="./imagenes/iphone14pro/iphone-14-pro2.png" alt="2" class="d-block w-100">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="./imagenes/iphone14pro/iphone-14-pro3.png" alt="3" class="d-block w-100">
+			    </div>
+			  </div>
+			
+			  <!-- Left and right controls/icons -->
+			  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon"></span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+			    <span class="carousel-control-next-icon"></span>
+			  </button>
+			</div>
+			<button type="button" class="btn btn-primary" onclick="Cargar('./html/productos.jsp','inicio')" >Productos</button>
+	    </div>
+	  </div>
+	</div>
+	
+</body>
+
+</html>

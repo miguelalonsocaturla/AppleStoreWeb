@@ -1,0 +1,66 @@
+.jumbotron {
+  background-color: #8D99AE;
+  color: #0f0f0f;
+  padding: 100px 25px;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+  .img-responsive{max-height: 100%; max-width: 100%;}
+   
+   
+        #number-input{width: 50px; height: 40px;}
+            
+        #comprar-button{width: 100px; height: 40px;}
+             
+        .two-fields .input-group 
+        {
+            width:50%;
+            align-items: center;
+            margin-left: 70px;
+        }
+            
+        ul.nav { display:table; width:100%; }
+        ul.nav > li { display:table-cell; float:none; }
+            
+        a:active{color:white; background: none;}
+        #miTienda{margin-left: 10px;}
+        #icono{color:white; background: none; }
+        #boton{color:whitesmoke; background: #5e5e5e; border-color: #0f0f0f;}
+        #botondEmp{color:#737373}
+        #botondEmp:hover{color:whitesmoke}
+        #botondEmp:focus {color:whitesmoke;}
+        #botondCont{color:#737373}
+        #botondCont:hover{color:whitesmoke}
+        #botondCont:focus {color:whitesmoke;}
+        #botondProd{color:#737373}
+        #botondProd:hover{color:whitesmoke}
+        #botondProd:focus {color:whitesmoke;}
+        #botondAdmin{color:#737373}
+        #botondAdmin:hover{color:whitesmoke}
+        #botondAdmin:focus {color:whitesmoke;}
+
+        .form-group{margin-top:15px;}
+        #titulo{margin-top: 0px; color:#d90429 ;}
+        #iniciarSesion:hover{background-color: #5e5e5e;}
+        .second-nav 
+        {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 50.5px;
+        }
+        .fixed-top-2 
+         {
+                margin-top: 4%;
+         }      
+            
+        #textoCont{width: 100%; height: 100%; border-radius:5px;}
+        #cuerpoProducts{margin-bottom:6%}
+        #contactLinkInst{color:black; text-decoration: none}
+        #contactLinkTw{color:black; text-decoration: none}
+        #contactLinkFac{color:black; text-decoration: none}
+        #cardActPerf{margin-left: 30%; margin-top: 4%;border-color: #8D99AE; border-width: 3px; margin-bottom:10%}
+        #botonesActPerf{margin-top: 3%; margin-left: 50%;}
+        #table{width: 80%; align-content: center;margin-top:180px;margin-left:10%;}
+        
